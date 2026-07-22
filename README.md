@@ -14,6 +14,11 @@ A macOS menu bar icon that starts almost transparent when you clock in, and grad
 > 45% 진행된 상태를 커스텀 로고 예시로 렌더링한 화면입니다 (앱의 실제 아이콘 합성 로직으로 생성).
 > Rendered with the app's actual icon-compositing logic at 45% progress, using a custom logo as an example.
 
+![WorkdayBar after clock-out, showing overtime elapsed](docs/screenshot-overtime.png)
+
+> 퇴근 시각이 지난 뒤의 실제 화면입니다. 아이콘은 꽉 찬 상태로 유지되고, "추가공부 X시간 Y분 하는 중"으로 퇴근 후 경과 시간을 보여줍니다.
+> The real menu bar after clock-out time has passed. The icon stays fully filled, and the dropdown shows "추가공부 X시간 Y분 하는 중" (studying extra X hours Y minutes) — how long you've been at it since clocking out.
+
 ---
 
 ## 한국어

@@ -10,7 +10,8 @@ let package = Package(
         .executableTarget(
             name: "WorkdayBar",
             exclude: [
-                "Resources/Info.plist"
+                "Resources/Info.plist",
+                "Resources/AppIcon.icns"
             ],
             resources: [
                 .copy("Resources/default-logo.png")

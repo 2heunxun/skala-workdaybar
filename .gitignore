@@ -43,8 +43,9 @@ WorkdayBar.app/
 /Todo.md
 /진행상황.md
 /skala.png
-/img.png
+/img*.png
 /tap-저장소-만들기.md
+/icons/
 
 ### IntelliJ project metadata (leftover from initial scaffold, not a Swift artifact) ###
 .idea/

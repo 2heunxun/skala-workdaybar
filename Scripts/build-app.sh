@@ -36,6 +36,7 @@ cp "$ROOT_DIR/Sources/$APP_NAME/Resources/Info.plist" "$APP_BUNDLE/Contents/Info
 # rejects as "unsealed contents present in the bundle root". AppDelegate
 # checks Bundle.main first, which resolves correctly here.)
 cp "$ROOT_DIR/Sources/$APP_NAME/Resources/default-logo.png" "$APP_BUNDLE/Contents/Resources/default-logo.png"
+cp "$ROOT_DIR/Sources/$APP_NAME/Resources/AppIcon.icns" "$APP_BUNDLE/Contents/Resources/AppIcon.icns"
 
 echo "==> Ad-hoc signing (no Developer ID certificate)"
 codesign --force --deep --sign - "$APP_BUNDLE"
