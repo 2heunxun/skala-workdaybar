@@ -37,8 +37,8 @@ brew install --cask 2heunxun/tap/workdaybar
 #### 3. 소스에서 빌드
 
 ```bash
-git clone https://github.com/2heunxun/skala-workdaybar.git
-cd skala-workdaybar
+git clone https://github.com/2heunxun/workdaybar.git
+cd workdaybar
 ./Scripts/build-app.sh
 open WorkdayBar.app
 ```
@@ -97,8 +97,8 @@ Requires registering [`Casks/workdaybar.rb`](Casks/workdaybar.rb) in a separate 
 #### 3. Build from source
 
 ```bash
-git clone https://github.com/2heunxun/skala-workdaybar.git
-cd skala-workdaybar
+git clone https://github.com/2heunxun/workdaybar.git
+cd workdaybar
 ./Scripts/build-app.sh
 open WorkdayBar.app
 ```
