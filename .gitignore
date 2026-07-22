@@ -1,0 +1,49 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Swift Package Manager ###
+.build/
+.swiftpm/
+Package.resolved
+
+### WorkdayBar build output ###
+WorkdayBar.app/
+*.dmg
+
+### Development notes (not part of the published repo) ###
+/claude_code_prompt.md
+/Todo.md
+/진행상황.md
+/skala.png
+
+### IntelliJ project metadata (leftover from initial scaffold, not a Swift artifact) ###
+.idea/
+*.iml
