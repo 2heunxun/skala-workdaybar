@@ -4,10 +4,15 @@
 
 A macOS menu bar icon that starts almost transparent when you clock in, and gradually fills in as your workday progresses — a glanceable indicator of how much of the day is left.
 
+![WorkdayBar running in the real macOS menu bar](docs/screenshot-real.png)
+
+> 실제 macOS 메뉴바에서 동작하는 화면입니다. 로고의 "S" 부분만 선명하고 나머지는 흐릿하게 남아있는 게 지금까지의 진행률입니다.
+> WorkdayBar running in an actual macOS menu bar. Only the "S" is fully opaque — the rest stays dim — reflecting how much of the day has elapsed so far.
+
 ![WorkdayBar icon filled to 45% with a custom logo](docs/screenshot-example.png)
 
-> 45% 진행된 상태를 커스텀 로고 예시로 렌더링한 화면입니다 (앱의 실제 아이콘 합성 로직으로 생성). 실제 macOS 데스크톱 스크린샷으로 교체될 예정입니다.
-> Rendered with the app's actual icon-compositing logic at 45% progress, using a custom logo as an example. Will be replaced with a real macOS desktop screenshot.
+> 45% 진행된 상태를 커스텀 로고 예시로 렌더링한 화면입니다 (앱의 실제 아이콘 합성 로직으로 생성).
+> Rendered with the app's actual icon-compositing logic at 45% progress, using a custom logo as an example.
 
 ---
 
