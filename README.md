@@ -26,15 +26,7 @@ A macOS menu bar icon that starts almost transparent when you clock in, and grad
      xattr -dr com.apple.quarantine /Applications/WorkdayBar.app
      ```
 
-#### 2. Homebrew Cask
-
-```bash
-brew install --cask 2heunxun/tap/workdaybar
-```
-
-별도 tap 저장소에 `Casks/workdaybar.rb`([이 저장소의 파일](Casks/workdaybar.rb) 참고)를 등록해야 합니다. 릴리즈 후 실제 DMG의 SHA256으로 플레이스홀더를 교체하세요.
-
-#### 3. 소스에서 빌드
+#### 2. 소스에서 빌드
 
 ```bash
 git clone https://github.com/2heunxun/workdaybar.git
@@ -86,15 +78,7 @@ open WorkdayBar.app
      xattr -dr com.apple.quarantine /Applications/WorkdayBar.app
      ```
 
-#### 2. Homebrew Cask
-
-```bash
-brew install --cask 2heunxun/tap/workdaybar
-```
-
-Requires registering [`Casks/workdaybar.rb`](Casks/workdaybar.rb) in a separate tap repository. Replace the placeholder SHA256 with the real DMG checksum after each release.
-
-#### 3. Build from source
+#### 2. Build from source
 
 ```bash
 git clone https://github.com/2heunxun/workdaybar.git
