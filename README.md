@@ -56,6 +56,16 @@ open WorkdayBar.app
 - **이미지 선택…** — 회사 로고, 팀 마스코트 등 원하는 이미지를 PNG/JPG로 선택하면 즉시 메뉴바 아이콘으로 반영됩니다. 이게 이 앱의 핵심 사용 흐름입니다 — 기본 이미지는 그냥 예시일 뿐, 자기 이미지를 넣어야 진짜 재미있어집니다. 바로 테스트해보고 싶다면 [`docs/example-logo.png`](docs/example-logo.png)를 골라보세요.
 - **미경과 구간 투명도 / 채움 방향 / 주말 숨김 / 로그인 시 자동 실행** — 취향껏 조정하세요.
 
+### 앱이 사라졌을 때 / 재부팅 후 자동으로 뜨게 하기
+
+메뉴바 아이콘을 실수로 종료했거나 앱이 죽었다면, 다른 Mac 앱처럼 다시 열면 됩니다 (Dock 아이콘이 없는 메뉴바 전용 앱이라 Dock에서는 못 엽니다):
+
+- **Spotlight**: `Cmd + Space` → "WorkdayBar" 입력 → Enter
+- **Launchpad**에서 아이콘 클릭
+- **Finder → Applications** 폴더에서 `WorkdayBar.app` 더블클릭
+
+컴퓨터를 껐다 켜도(재부팅) 자동으로 다시 뜨게 하려면, 메뉴 → **설정…** → **"로그인 시 자동 실행"** 토글을 켜세요. 기본값은 꺼짐이라, 이 토글을 켜지 않으면 재부팅 후 매번 위 방법으로 직접 열어야 합니다. (실행 중에 앱이 죽었을 때 자동으로 재시작해주는 기능은 아니고, 로그인/재부팅 시점에만 자동으로 켜주는 기능입니다.)
+
 ### 기여 가이드
 
 이슈와 PR 환영합니다. 커밋 메시지는 [Conventional Commits](https://www.conventionalcommits.org/) 형식을 따라주세요 (`feat:`, `fix:`, `docs:` 등). 로컬에서 `swift build`와 `swift test`가 통과하는지 확인한 뒤 PR을 올려주세요.
@@ -105,6 +115,16 @@ Click the menu bar icon → **Settings…**:
 - **Clock-in / clock-out time** — progress is calculated against this window.
 - **Choose Image…** — pick a company logo, team mascot, or anything else as a PNG/JPG; it becomes your menu bar icon immediately. This is the whole point of the app — the bundled default is just a placeholder, swap in your own image to make it yours. Want to try it right away? Pick [`docs/example-logo.png`](docs/example-logo.png).
 - **Unfilled opacity / fill direction / hide on weekends / launch at login** — tune to taste.
+
+### If the app disappears / auto-start after a restart
+
+If you accidentally quit the menu bar icon or it crashed, just relaunch it like any other Mac app (there's no Dock icon to click, since it's a menu-bar-only app):
+
+- **Spotlight**: `Cmd + Space` → type "WorkdayBar" → Enter
+- Click it in **Launchpad**
+- Double-click `WorkdayBar.app` in **Finder → Applications**
+
+To have it come back automatically after turning your computer off and on (a restart), open the menu → **Settings…** → enable **"Launch at Login"**. This is off by default, so without enabling it you'll need to reopen it manually every time after a restart. (This only relaunches the app at login/restart — it won't automatically restart the app if it crashes while your Mac stays on.)
 
 ### Contributing
 
