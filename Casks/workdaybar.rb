@@ -2,10 +2,10 @@ cask "workdaybar" do
   version "0.1.0"
   sha256 "REPLACE_WITH_SHA256_AFTER_RELEASE"
 
-  url "https://github.com/<your-github-username>/skala-workdaybar/releases/download/v#{version}/WorkdayBar-v#{version}.dmg"
+  url "https://github.com/2heunxun/skala-workdaybar/releases/download/v#{version}/WorkdayBar-v#{version}.dmg"
   name "WorkdayBar"
   desc "Menu bar icon that fills in as your workday progresses"
-  homepage "https://github.com/<your-github-username>/skala-workdaybar"
+  homepage "https://github.com/2heunxun/skala-workdaybar"
 
   depends_on macos: ">= :ventura"
 
