@@ -1,5 +1,5 @@
 cask "workdaybar" do
-  version "0.1.0"
+  version "1.0.0"
   sha256 "REPLACE_WITH_SHA256_AFTER_RELEASE"
 
   url "https://github.com/2heunxun/skala-workdaybar/releases/download/v#{version}/WorkdayBar-v#{version}.dmg"
