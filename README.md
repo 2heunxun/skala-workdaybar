@@ -4,20 +4,10 @@
 
 A macOS menu bar icon that starts almost transparent when you clock in, and gradually fills in as your workday progresses — a glanceable indicator of how much of the day is left.
 
-![WorkdayBar running in the real macOS menu bar](docs/screenshot-real.png)
+![WorkdayBar icon filled to 45% with the default icon](docs/screenshot-example.png)
 
-> 실제 macOS 메뉴바에서 동작하는 화면입니다. 로고의 "S" 부분만 선명하고 나머지는 흐릿하게 남아있는 게 지금까지의 진행률입니다.
-> WorkdayBar running in an actual macOS menu bar. Only the "S" is fully opaque — the rest stays dim — reflecting how much of the day has elapsed so far.
-
-![WorkdayBar icon filled to 45% with a custom logo](docs/screenshot-example.png)
-
-> 45% 진행된 상태를 커스텀 로고 예시로 렌더링한 화면입니다 (앱의 실제 아이콘 합성 로직으로 생성).
-> Rendered with the app's actual icon-compositing logic at 45% progress, using a custom logo as an example.
-
-![WorkdayBar after clock-out, showing overtime elapsed](docs/screenshot-overtime.png)
-
-> 퇴근 시각이 지난 뒤의 실제 화면입니다. 아이콘은 꽉 찬 상태로 유지되고, "추가공부 X시간 Y분 하는 중"으로 퇴근 후 경과 시간을 보여줍니다.
-> The real menu bar after clock-out time has passed. The icon stays fully filled, and the dropdown shows "추가공부 X시간 Y분 하는 중" (studying extra X hours Y minutes) — how long you've been at it since clocking out.
+> 45% 진행된 상태를 기본 아이콘으로 렌더링한 화면입니다 (앱의 실제 아이콘 합성 로직으로 생성).
+> Rendered with the app's actual icon-compositing logic at 45% progress, using the bundled default icon.
 
 ---
 
@@ -58,7 +48,7 @@ open WorkdayBar.app
 메뉴바 아이콘을 클릭 → **설정…**을 열면:
 
 - **출근 시각 / 퇴근 시각** — 이 시간을 기준으로 진행률이 계산됩니다.
-- **이미지 선택…** — 회사 로고, 팀 마스코트 등 원하는 이미지를 PNG/JPG로 선택하면 즉시 메뉴바 아이콘으로 반영됩니다. 이게 이 앱의 핵심 사용 흐름입니다 — 기본 이미지는 그냥 예시일 뿐, 자기 이미지를 넣어야 진짜 재미있어집니다. 바로 테스트해보고 싶다면 [`docs/example-logo.png`](docs/example-logo.png)를 골라보세요.
+- **이미지 선택…** — 회사 로고, 팀 마스코트 등 원하는 이미지를 PNG/JPG로 선택하면 즉시 메뉴바 아이콘으로 반영됩니다. 이게 이 앱의 핵심 사용 흐름입니다 — 기본 이미지는 그냥 예시일 뿐, 자기 이미지를 넣어야 진짜 재미있어집니다.
 - **미경과 구간 투명도 / 채움 방향 / 주말 숨김 / 로그인 시 자동 실행** — 취향껏 조정하세요.
 
 ### 앱이 사라졌을 때 / 재부팅 후 자동으로 뜨게 하기
@@ -118,7 +108,7 @@ open WorkdayBar.app
 Click the menu bar icon → **Settings…**:
 
 - **Clock-in / clock-out time** — progress is calculated against this window.
-- **Choose Image…** — pick a company logo, team mascot, or anything else as a PNG/JPG; it becomes your menu bar icon immediately. This is the whole point of the app — the bundled default is just a placeholder, swap in your own image to make it yours. Want to try it right away? Pick [`docs/example-logo.png`](docs/example-logo.png).
+- **Choose Image…** — pick a company logo, team mascot, or anything else as a PNG/JPG; it becomes your menu bar icon immediately. This is the whole point of the app — the bundled default is just a placeholder, swap in your own image to make it yours.
 - **Unfilled opacity / fill direction / hide on weekends / launch at login** — tune to taste.
 
 ### If the app disappears / auto-start after a restart
